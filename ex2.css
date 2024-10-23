@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url('https://images.hdqwalls.com/download/basketball-court-4k-p9-3840x2400.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+header{
+    background: black;
+    height: 120px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+}
+.right-nav4 a{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+    color: rgb(29, 129, 162);
+    font-size: 15px;
+}
+.right-nav4 a:hover{
+    border: #ffffff;
+    color: rgb(253, 253, 253);
+}
+.logo{
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+}
+.mid-nav a{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 16px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+.mid-nav h1{
+    margin-left: 15px;
+    
+}
+.mid-nav a:hover{
+    color: blue;
+}
+.right-nav{
+    text-decoration: none;
+    font-size: 15px;
+}
+.right-nav a{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+    background: white;
+    color: brown;
+    font-size: 15px;
+}
+.right-nav a:hover{
+    background: brown;
+    color: white;
+}
+.right-nav2 a{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+.right-nav2 a:hover{
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+}
+.right-nav3 a{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+    color: rgb(191, 165, 165);
+    font-size: 15px;
+}
+.right-nav3 a:hover{
+    border: #ffffff;
+    color: rgb(253, 253, 253);
+}
+.right-nav5 a{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+    color: rgb(29, 129, 162);
+    font-size: 15px;
+}
+.right-nav5 a:hover{
+    border: #ffffff;
+    color: rgb(253, 253, 253);
+}
+.like{
+    padding: 45px;
+}
+.like h1{
+    text-align: center;
+    color: #ffffff;
+}
+.like img{
+    border: #000 solid 9px;
+    border-radius: 5px;
+    height: 350px;
+    width: 450px;
+}
+footer{
+    height: 270px;
+    background: #000;
+    display: flex;
+    justify-content: space-around;
+}
+.a img{
+    width: 30px;
+    height: 25px;
+}
+.footer p{
+    color: #ffffff;
+}
+footer h2{
+    color: white;
+}
+.bottom{
+    color: rgb(248, 246, 246);
+}
+footer .us, .h2{
+    color: #ffffff;
+}
+.carousel-h{
+    height: 400px;
+    overflow-y: hidden;
+    margin: 0 auto;
+}
+.d-block h5, p{
+    color: #ffffff;
+}

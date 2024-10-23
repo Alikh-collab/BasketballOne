@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0e7794;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #000000;
+    height: 80px;
+    overflow: hidden;
+}
+header a{
+    margin: 50px;
+    font-size: 30px;
+}
+.wrapper {
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
+.poster {
+    width: 100%;
+    height: 50vh;
+    background-image: url(https://staticg.sportskeeda.com/editor/2021/12/18dc6-16384348153060-1920.jpg);
+    background-position: top;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+
+.partners img{
+    margin-left: 25%;
+    width: 500px;
+    height: 300px;
+    border-radius: 999px;
+}
+
+.poster .black {
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    z-index: 5;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,0) 0%, rgba(0,0,0,1) 86%);
+}
+
+header .logo img {
+    width: 200px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+footer{
+    height: 270px;
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+}
+.footer p{
+    color: #ffffff;
+}
+footer h2{
+    color: white;
+}
+.bottom{
+    color: rgb(248, 246, 246);
+}
+footer .us, .h2{
+    color: #ffffff;
+}
+.a img{
+    width: 30px;
+    height: 25px;
+}
+.mid-nav a{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 16px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+.mid-nav h1{
+    margin-left: 15px;
+    
+}
+.mid-nav a:hover{
+    color: blue;
+}
+.right-nav3 a{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+    color: rgb(191, 165, 165);
+    font-size: 15px;
+}
+.right-nav3 a:hover{
+    border: #ffffff;
+    color: rgb(253, 253, 253);
+}
+.right-nav4 a{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+    color: rgb(29, 129, 162);
+    font-size: 15px;
+}
+.right-nav4 a:hover{
+    border: #ffffff;
+    color: rgb(253, 253, 253);
+}
